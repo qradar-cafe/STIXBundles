@@ -1,0 +1,2247 @@
+{
+    "id": "observed-data--5c9ced04-87af-4ab5-999c-1aa1d240ee1d",
+    "type": "observed-data",
+    "created_by_ref": "identity--b79d03f9-257d-408d-ac37-2e51dc6b5723",
+    "created": "2023-06-09T12:25:58.094Z",
+    "modified": "2023-06-09T12:25:58.094Z",
+    "objects": {
+        "0": {
+            "type": "x-qradar",
+            "application_id": "1004",
+            "credibility": 10,
+            "domain_id": 0,
+            "first_packet_time": "1686067136000",
+            "direction": "R2L",
+            "flow_interface_id": [
+                "55"
+            ],
+            "flow_source": [
+                "aio"
+            ],
+            "flow_type": "Standard Flow",
+            "geographic": "Asia.Thailand",
+            "has_offense": "false",
+            "flow_interface": [
+                "aio:apphost_qradar_lab"
+            ],
+            "last_packet_time": "1686067136021",
+            "qid": 53250006,
+            "relevance": 6,
+            "severity": 1,
+            "suspect_content_descriptions": []
+        },
+        "1": {
+            "type": "software",
+            "name": "Mail.SMTP"
+        },
+        "2": {
+            "type": "x-oca-event",
+            "outcome": "Mail",
+            "network_ref": "3",
+            "action": "Mail.SMTP"
+        },
+        "3": {
+            "type": "network-traffic",
+            "dst_byte_count": 20546,
+            "dst_ref": "4",
+            "dst_packets": 100,
+            "dst_port": 25,
+            "protocols": [
+                "tcp"
+            ],
+            "src_byte_count": 469,
+            "src_ref": "6",
+            "src_packets": 100,
+            "src_port": 23268,
+            "ipfix": {
+                "flowId": 3097706900456789500
+            }
+        },
+        "4": {
+            "type": "ipv4-addr",
+            "value": "10.31.1.50"
+        },
+        "5": {
+            "type": "x-ibm-finding",
+            "dst_ip_ref": "4",
+            "src_ip_ref": "6",
+            "start": "2023-06-06T15:58:56.000Z",
+            "end": "2023-06-06T15:59:56.000Z"
+        },
+        "6": {
+            "type": "ipv4-addr",
+            "value": "103.7.59.135"
+        }
+    },
+    "first_observed": "2023-06-06T15:58:56.000Z",
+    "last_observed": "2023-06-06T15:59:56.000Z",
+    "number_observed": 1
+},
+{
+    "id": "observed-data--efe9b7fc-ead8-4411-8047-c7788576f2fe",
+    "type": "observed-data",
+    "created_by_ref": "identity--b79d03f9-257d-408d-ac37-2e51dc6b5723",
+    "created": "2023-06-09T12:25:58.096Z",
+    "modified": "2023-06-09T12:25:58.096Z",
+    "objects": {
+        "0": {
+            "type": "x-qradar",
+            "application_id": "1004",
+            "credibility": 10,
+            "domain_id": 0,
+            "first_packet_time": "1686067136010",
+            "direction": "R2L",
+            "flow_interface_id": [
+                "55"
+            ],
+            "flow_source": [
+                "aio"
+            ],
+            "flow_type": "Standard Flow",
+            "geographic": "Asia.Thailand",
+            "has_offense": "true",
+            "flow_interface": [
+                "aio:apphost_qradar_lab"
+            ],
+            "last_packet_time": "1686067136011",
+            "qid": 53250006,
+            "relevance": 6,
+            "severity": 1,
+            "suspect_content_descriptions": []
+        },
+        "1": {
+            "type": "software",
+            "name": "Mail.SMTP"
+        },
+        "2": {
+            "type": "x-oca-event",
+            "outcome": "Mail",
+            "network_ref": "3",
+            "action": "Mail.SMTP",
+            "file_ref": "8"
+        },
+        "3": {
+            "type": "network-traffic",
+            "dst_byte_count": 0,
+            "dst_ref": "4",
+            "dst_packets": 0,
+            "dst_port": 25,
+            "protocols": [
+                "tcp"
+            ],
+            "src_byte_count": 0,
+            "src_ref": "6",
+            "src_packets": 0,
+            "src_port": 23268,
+            "ipfix": {
+                "flowId": 3097706900456789500
+            }
+        },
+        "4": {
+            "type": "ipv4-addr",
+            "value": "10.31.1.50"
+        },
+        "5": {
+            "type": "x-ibm-finding",
+            "dst_ip_ref": "4",
+            "src_ip_ref": "6",
+            "start": "2023-06-06T15:58:56.010Z",
+            "end": "2023-06-06T15:59:56.010Z"
+        },
+        "6": {
+            "type": "ipv4-addr",
+            "value": "103.7.59.135"
+        },
+        "8": {
+            "type": "file",
+            "hashes": {
+                "SHA-256": "f4382da7b00f67bb8abac9b3cea63ef7e73e068bc15802a7254d6b7a86dfa171"
+            },
+            "name": "PasswordCheck.xls",
+            "size": "34789"
+        }
+    },
+    "first_observed": "2023-06-06T15:58:56.010Z",
+    "last_observed": "2023-06-06T15:59:56.010Z",
+    "number_observed": 1
+},
+{
+    "id": "observed-data--1c642eb5-d5ae-406e-9bfe-64b93ce05ed2",
+    "type": "observed-data",
+    "created_by_ref": "identity--b79d03f9-257d-408d-ac37-2e51dc6b5723",
+    "created": "2023-06-09T12:25:58.093Z",
+    "modified": "2023-06-09T12:25:58.093Z",
+    "objects": {
+        "0": {
+            "type": "x-qradar",
+            "application_id": "1004",
+            "credibility": 10,
+            "domain_id": 0,
+            "first_packet_time": "1686067136030",
+            "direction": "R2L",
+            "flow_interface_id": [
+                "55"
+            ],
+            "flow_source": [
+                "aio"
+            ],
+            "flow_type": "Standard Flow",
+            "geographic": "Asia.Thailand",
+            "has_offense": "false",
+            "flow_interface": [
+                "aio:apphost_qradar_lab"
+            ],
+            "last_packet_time": "1686067136051",
+            "qid": 53250006,
+            "relevance": 6,
+            "severity": 1,
+            "suspect_content_descriptions": []
+        },
+        "1": {
+            "type": "software",
+            "name": "Mail.SMTP"
+        },
+        "2": {
+            "type": "x-oca-event",
+            "outcome": "Mail",
+            "network_ref": "3",
+            "action": "Mail.SMTP"
+        },
+        "3": {
+            "type": "network-traffic",
+            "dst_byte_count": 187512,
+            "dst_ref": "4",
+            "dst_packets": 100,
+            "dst_port": 25,
+            "protocols": [
+                "tcp"
+            ],
+            "src_byte_count": 439,
+            "src_ref": "6",
+            "src_packets": 100,
+            "src_port": 19785,
+            "ipfix": {
+                "flowId": 3835688418983948000
+            }
+        },
+        "4": {
+            "type": "ipv4-addr",
+            "value": "10.31.1.50"
+        },
+        "5": {
+            "type": "x-ibm-finding",
+            "dst_ip_ref": "4",
+            "src_ip_ref": "6",
+            "start": "2023-06-06T15:58:56.030Z",
+            "end": "2023-06-06T15:59:56.030Z"
+        },
+        "6": {
+            "type": "ipv4-addr",
+            "value": "103.7.59.135"
+        }
+    },
+    "first_observed": "2023-06-06T15:58:56.030Z",
+    "last_observed": "2023-06-06T15:59:56.030Z",
+    "number_observed": 1
+},
+{
+    "id": "observed-data--d3946507-6022-4c8b-b575-a629440e42de",
+    "type": "observed-data",
+    "created_by_ref": "identity--b79d03f9-257d-408d-ac37-2e51dc6b5723",
+    "created": "2023-06-09T12:25:58.097Z",
+    "modified": "2023-06-09T12:25:58.097Z",
+    "objects": {
+        "0": {
+            "type": "x-qradar",
+            "application_id": "1004",
+            "credibility": 10,
+            "domain_id": 0,
+            "first_packet_time": "1686067136040",
+            "direction": "R2L",
+            "flow_interface_id": [
+                "55"
+            ],
+            "flow_source": [
+                "aio"
+            ],
+            "flow_type": "Standard Flow",
+            "geographic": "Asia.Thailand",
+            "has_offense": "true",
+            "flow_interface": [
+                "aio:apphost_qradar_lab"
+            ],
+            "last_packet_time": "1686067136041",
+            "qid": 53250006,
+            "relevance": 6,
+            "severity": 1,
+            "suspect_content_descriptions": []
+        },
+        "1": {
+            "type": "software",
+            "name": "Mail.SMTP"
+        },
+        "2": {
+            "type": "x-oca-event",
+            "outcome": "Mail",
+            "network_ref": "3",
+            "action": "Mail.SMTP",
+            "file_ref": "8"
+        },
+        "3": {
+            "type": "network-traffic",
+            "dst_byte_count": 0,
+            "dst_ref": "4",
+            "dst_packets": 0,
+            "dst_port": 25,
+            "protocols": [
+                "tcp"
+            ],
+            "src_byte_count": 0,
+            "src_ref": "6",
+            "src_packets": 0,
+            "src_port": 19785,
+            "ipfix": {
+                "flowId": 3835688418983948000
+            }
+        },
+        "4": {
+            "type": "ipv4-addr",
+            "value": "10.31.1.50"
+        },
+        "5": {
+            "type": "x-ibm-finding",
+            "dst_ip_ref": "4",
+            "src_ip_ref": "6",
+            "start": "2023-06-06T15:58:56.040Z",
+            "end": "2023-06-06T15:59:56.040Z"
+        },
+        "6": {
+            "type": "ipv4-addr",
+            "value": "103.7.59.135"
+        },
+        "8": {
+            "type": "file",
+            "hashes": {
+                "SHA-256": "f4382da7b00f67bb8abac9b3cea63ef7e73e068bc15802a7254d6b7a86dfa171"
+            },
+            "name": "PasswordCheck.xls",
+            "size": "34789"
+        }
+    },
+    "first_observed": "2023-06-06T15:58:56.040Z",
+    "last_observed": "2023-06-06T15:59:56.040Z",
+    "number_observed": 1
+},
+{
+    "id": "observed-data--6ef165b3-2226-4a49-af26-0e73c30aafa0",
+    "type": "observed-data",
+    "created_by_ref": "identity--b79d03f9-257d-408d-ac37-2e51dc6b5723",
+    "created": "2023-06-09T12:25:58.093Z",
+    "modified": "2023-06-09T12:25:58.093Z",
+    "objects": {
+        "0": {
+            "type": "x-qradar",
+            "application_id": "1004",
+            "credibility": 10,
+            "domain_id": 0,
+            "first_packet_time": "1686067136060",
+            "direction": "R2L",
+            "flow_interface_id": [
+                "55"
+            ],
+            "flow_source": [
+                "aio"
+            ],
+            "flow_type": "Standard Flow",
+            "geographic": "Asia.Thailand",
+            "has_offense": "false",
+            "flow_interface": [
+                "aio:apphost_qradar_lab"
+            ],
+            "last_packet_time": "1686067137081",
+            "qid": 53250006,
+            "relevance": 6,
+            "severity": 1,
+            "suspect_content_descriptions": []
+        },
+        "1": {
+            "type": "software",
+            "name": "Mail.SMTP"
+        },
+        "2": {
+            "type": "x-oca-event",
+            "outcome": "Mail",
+            "network_ref": "3",
+            "action": "Mail.SMTP"
+        },
+        "3": {
+            "type": "network-traffic",
+            "dst_byte_count": 135431,
+            "dst_ref": "4",
+            "dst_packets": 100,
+            "dst_port": 25,
+            "protocols": [
+                "tcp"
+            ],
+            "src_byte_count": 348,
+            "src_ref": "6",
+            "src_packets": 100,
+            "src_port": 13159,
+            "ipfix": {
+                "flowId": 94411424110413040
+            }
+        },
+        "4": {
+            "type": "ipv4-addr",
+            "value": "10.31.1.50"
+        },
+        "5": {
+            "type": "x-ibm-finding",
+            "dst_ip_ref": "4",
+            "src_ip_ref": "6",
+            "start": "2023-06-06T15:58:56.060Z",
+            "end": "2023-06-06T15:59:56.060Z"
+        },
+        "6": {
+            "type": "ipv4-addr",
+            "value": "103.7.59.135"
+        }
+    },
+    "first_observed": "2023-06-06T15:58:56.060Z",
+    "last_observed": "2023-06-06T15:59:56.060Z",
+    "number_observed": 1
+},
+{
+    "id": "observed-data--8cdcbed9-f3a3-4e28-8fcb-03fce7d92441",
+    "type": "observed-data",
+    "created_by_ref": "identity--b79d03f9-257d-408d-ac37-2e51dc6b5723",
+    "created": "2023-06-09T12:25:58.097Z",
+    "modified": "2023-06-09T12:25:58.097Z",
+    "objects": {
+        "0": {
+            "type": "x-qradar",
+            "application_id": "1004",
+            "credibility": 10,
+            "domain_id": 0,
+            "first_packet_time": "1686067137070",
+            "direction": "R2L",
+            "flow_interface_id": [
+                "55"
+            ],
+            "flow_source": [
+                "aio"
+            ],
+            "flow_type": "Standard Flow",
+            "geographic": "Asia.Thailand",
+            "has_offense": "true",
+            "flow_interface": [
+                "aio:apphost_qradar_lab"
+            ],
+            "last_packet_time": "1686067137071",
+            "qid": 53250006,
+            "relevance": 6,
+            "severity": 1,
+            "suspect_content_descriptions": []
+        },
+        "1": {
+            "type": "software",
+            "name": "Mail.SMTP"
+        },
+        "2": {
+            "type": "x-oca-event",
+            "outcome": "Mail",
+            "network_ref": "3",
+            "action": "Mail.SMTP",
+            "file_ref": "8"
+        },
+        "3": {
+            "type": "network-traffic",
+            "dst_byte_count": 0,
+            "dst_ref": "4",
+            "dst_packets": 0,
+            "dst_port": 25,
+            "protocols": [
+                "tcp"
+            ],
+            "src_byte_count": 0,
+            "src_ref": "6",
+            "src_packets": 0,
+            "src_port": 13159,
+            "ipfix": {
+                "flowId": 94411424110413040
+            }
+        },
+        "4": {
+            "type": "ipv4-addr",
+            "value": "10.31.1.50"
+        },
+        "5": {
+            "type": "x-ibm-finding",
+            "dst_ip_ref": "4",
+            "src_ip_ref": "6",
+            "start": "2023-06-06T15:58:57.070Z",
+            "end": "2023-06-06T15:59:57.070Z"
+        },
+        "6": {
+            "type": "ipv4-addr",
+            "value": "103.7.59.135"
+        },
+        "8": {
+            "type": "file",
+            "hashes": {
+                "SHA-256": "f4382da7b00f67bb8abac9b3cea63ef7e73e068bc15802a7254d6b7a86dfa171"
+            },
+            "name": "PasswordCheck.xls",
+            "size": "34789"
+        }
+    },
+    "first_observed": "2023-06-06T15:58:57.070Z",
+    "last_observed": "2023-06-06T15:59:57.070Z",
+    "number_observed": 1
+},
+{
+    "id": "observed-data--50fc53c8-76d9-49c0-96cb-901f956d4126",
+    "type": "observed-data",
+    "created_by_ref": "identity--b79d03f9-257d-408d-ac37-2e51dc6b5723",
+    "created": "2023-06-09T12:25:58.092Z",
+    "modified": "2023-06-09T12:25:58.092Z",
+    "objects": {
+        "0": {
+            "type": "x-qradar",
+            "application_id": "1004",
+            "credibility": 10,
+            "domain_id": 0,
+            "first_packet_time": "1686067137090",
+            "direction": "R2L",
+            "flow_interface_id": [
+                "55"
+            ],
+            "flow_source": [
+                "aio"
+            ],
+            "flow_type": "Standard Flow",
+            "geographic": "Asia.Thailand",
+            "has_offense": "false",
+            "flow_interface": [
+                "aio:apphost_qradar_lab"
+            ],
+            "last_packet_time": "1686067137111",
+            "qid": 53250006,
+            "relevance": 6,
+            "severity": 1,
+            "suspect_content_descriptions": []
+        },
+        "1": {
+            "type": "software",
+            "name": "Mail.SMTP"
+        },
+        "2": {
+            "type": "x-oca-event",
+            "outcome": "Mail",
+            "network_ref": "3",
+            "action": "Mail.SMTP"
+        },
+        "3": {
+            "type": "network-traffic",
+            "dst_byte_count": 164377,
+            "dst_ref": "4",
+            "dst_packets": 100,
+            "dst_port": 25,
+            "protocols": [
+                "tcp"
+            ],
+            "src_byte_count": 397,
+            "src_ref": "6",
+            "src_packets": 100,
+            "src_port": 15666,
+            "ipfix": {
+                "flowId": 13892441252747033000
+            }
+        },
+        "4": {
+            "type": "ipv4-addr",
+            "value": "10.31.1.50"
+        },
+        "5": {
+            "type": "x-ibm-finding",
+            "dst_ip_ref": "4",
+            "src_ip_ref": "6",
+            "start": "2023-06-06T15:58:57.090Z",
+            "end": "2023-06-06T15:59:57.090Z"
+        },
+        "6": {
+            "type": "ipv4-addr",
+            "value": "103.7.59.135"
+        }
+    },
+    "first_observed": "2023-06-06T15:58:57.090Z",
+    "last_observed": "2023-06-06T15:59:57.090Z",
+    "number_observed": 1
+},
+{
+    "id": "observed-data--345ab629-d30c-4fdf-bf64-f712285ecc6d",
+    "type": "observed-data",
+    "created_by_ref": "identity--b79d03f9-257d-408d-ac37-2e51dc6b5723",
+    "created": "2023-06-09T12:25:58.098Z",
+    "modified": "2023-06-09T12:25:58.098Z",
+    "objects": {
+        "0": {
+            "type": "x-qradar",
+            "application_id": "1004",
+            "credibility": 10,
+            "domain_id": 0,
+            "first_packet_time": "1686067137100",
+            "direction": "R2L",
+            "flow_interface_id": [
+                "55"
+            ],
+            "flow_source": [
+                "aio"
+            ],
+            "flow_type": "Standard Flow",
+            "geographic": "Asia.Thailand",
+            "has_offense": "true",
+            "flow_interface": [
+                "aio:apphost_qradar_lab"
+            ],
+            "last_packet_time": "1686067137101",
+            "qid": 53250006,
+            "relevance": 6,
+            "severity": 1,
+            "suspect_content_descriptions": []
+        },
+        "1": {
+            "type": "software",
+            "name": "Mail.SMTP"
+        },
+        "2": {
+            "type": "x-oca-event",
+            "outcome": "Mail",
+            "network_ref": "3",
+            "action": "Mail.SMTP",
+            "file_ref": "8"
+        },
+        "3": {
+            "type": "network-traffic",
+            "dst_byte_count": 0,
+            "dst_ref": "4",
+            "dst_packets": 0,
+            "dst_port": 25,
+            "protocols": [
+                "tcp"
+            ],
+            "src_byte_count": 0,
+            "src_ref": "6",
+            "src_packets": 0,
+            "src_port": 15666,
+            "ipfix": {
+                "flowId": 13892441252747033000
+            }
+        },
+        "4": {
+            "type": "ipv4-addr",
+            "value": "10.31.1.50"
+        },
+        "5": {
+            "type": "x-ibm-finding",
+            "dst_ip_ref": "4",
+            "src_ip_ref": "6",
+            "start": "2023-06-06T15:58:57.100Z",
+            "end": "2023-06-06T15:59:57.100Z"
+        },
+        "6": {
+            "type": "ipv4-addr",
+            "value": "103.7.59.135"
+        },
+        "8": {
+            "type": "file",
+            "hashes": {
+                "SHA-256": "f4382da7b00f67bb8abac9b3cea63ef7e73e068bc15802a7254d6b7a86dfa171"
+            },
+            "name": "PasswordCheck.xls",
+            "size": "34789"
+        }
+    },
+    "first_observed": "2023-06-06T15:58:57.100Z",
+    "last_observed": "2023-06-06T15:59:57.100Z",
+    "number_observed": 1
+},
+{
+    "id": "observed-data--64be7298-f199-447b-898c-863e9baec9df",
+    "type": "observed-data",
+    "created_by_ref": "identity--b79d03f9-257d-408d-ac37-2e51dc6b5723",
+    "created": "2023-06-09T12:25:58.092Z",
+    "modified": "2023-06-09T12:25:58.092Z",
+    "objects": {
+        "0": {
+            "type": "x-qradar",
+            "application_id": "1004",
+            "credibility": 10,
+            "domain_id": 0,
+            "first_packet_time": "1686067138120",
+            "direction": "R2L",
+            "flow_interface_id": [
+                "55"
+            ],
+            "flow_source": [
+                "aio"
+            ],
+            "flow_type": "Standard Flow",
+            "geographic": "Asia.Thailand",
+            "has_offense": "false",
+            "flow_interface": [
+                "aio:apphost_qradar_lab"
+            ],
+            "last_packet_time": "1686067138141",
+            "qid": 53250006,
+            "relevance": 6,
+            "severity": 1,
+            "suspect_content_descriptions": []
+        },
+        "1": {
+            "type": "software",
+            "name": "Mail.SMTP"
+        },
+        "2": {
+            "type": "x-oca-event",
+            "outcome": "Mail",
+            "network_ref": "3",
+            "action": "Mail.SMTP"
+        },
+        "3": {
+            "type": "network-traffic",
+            "dst_byte_count": 172804,
+            "dst_ref": "4",
+            "dst_packets": 100,
+            "dst_port": 25,
+            "protocols": [
+                "tcp"
+            ],
+            "src_byte_count": 490,
+            "src_ref": "6",
+            "src_packets": 100,
+            "src_port": 16148,
+            "ipfix": {
+                "flowId": 12544754894387749000
+            }
+        },
+        "4": {
+            "type": "ipv4-addr",
+            "value": "10.31.1.50"
+        },
+        "5": {
+            "type": "x-ibm-finding",
+            "dst_ip_ref": "4",
+            "src_ip_ref": "6",
+            "start": "2023-06-06T15:58:58.120Z",
+            "end": "2023-06-06T15:59:58.120Z"
+        },
+        "6": {
+            "type": "ipv4-addr",
+            "value": "103.7.59.135"
+        }
+    },
+    "first_observed": "2023-06-06T15:58:58.120Z",
+    "last_observed": "2023-06-06T15:59:58.120Z",
+    "number_observed": 1
+},
+{
+    "id": "observed-data--8a6e4aa4-3800-469a-b791-efdb69fe9216",
+    "type": "observed-data",
+    "created_by_ref": "identity--b79d03f9-257d-408d-ac37-2e51dc6b5723",
+    "created": "2023-06-09T12:25:58.098Z",
+    "modified": "2023-06-09T12:25:58.098Z",
+    "objects": {
+        "0": {
+            "type": "x-qradar",
+            "application_id": "1004",
+            "credibility": 10,
+            "domain_id": 0,
+            "first_packet_time": "1686067138130",
+            "direction": "R2L",
+            "flow_interface_id": [
+                "55"
+            ],
+            "flow_source": [
+                "aio"
+            ],
+            "flow_type": "Standard Flow",
+            "geographic": "Asia.Thailand",
+            "has_offense": "true",
+            "flow_interface": [
+                "aio:apphost_qradar_lab"
+            ],
+            "last_packet_time": "1686067138131",
+            "qid": 53250006,
+            "relevance": 6,
+            "severity": 1,
+            "suspect_content_descriptions": []
+        },
+        "1": {
+            "type": "software",
+            "name": "Mail.SMTP"
+        },
+        "2": {
+            "type": "x-oca-event",
+            "outcome": "Mail",
+            "network_ref": "3",
+            "action": "Mail.SMTP",
+            "file_ref": "8"
+        },
+        "3": {
+            "type": "network-traffic",
+            "dst_byte_count": 0,
+            "dst_ref": "4",
+            "dst_packets": 0,
+            "dst_port": 25,
+            "protocols": [
+                "tcp"
+            ],
+            "src_byte_count": 0,
+            "src_ref": "6",
+            "src_packets": 0,
+            "src_port": 16148,
+            "ipfix": {
+                "flowId": 12544754894387749000
+            }
+        },
+        "4": {
+            "type": "ipv4-addr",
+            "value": "10.31.1.50"
+        },
+        "5": {
+            "type": "x-ibm-finding",
+            "dst_ip_ref": "4",
+            "src_ip_ref": "6",
+            "start": "2023-06-06T15:58:58.130Z",
+            "end": "2023-06-06T15:59:58.130Z"
+        },
+        "6": {
+            "type": "ipv4-addr",
+            "value": "103.7.59.135"
+        },
+        "8": {
+            "type": "file",
+            "hashes": {
+                "SHA-256": "f4382da7b00f67bb8abac9b3cea63ef7e73e068bc15802a7254d6b7a86dfa171"
+            },
+            "name": "PasswordCheck.xls",
+            "size": "34789"
+        }
+    },
+    "first_observed": "2023-06-06T15:58:58.130Z",
+    "last_observed": "2023-06-06T15:59:58.130Z",
+    "number_observed": 1
+},
+{
+    "id": "observed-data--8ef7fb1a-0847-4272-85ac-4b9f37aedf97",
+    "type": "observed-data",
+    "created_by_ref": "identity--b79d03f9-257d-408d-ac37-2e51dc6b5723",
+    "created": "2023-06-09T12:25:58.096Z",
+    "modified": "2023-06-09T12:25:58.096Z",
+    "objects": {
+        "0": {
+            "type": "x-qradar",
+            "application_id": "1004",
+            "credibility": 10,
+            "domain_id": 0,
+            "first_packet_time": "1686067138150",
+            "direction": "R2L",
+            "flow_interface_id": [
+                "55"
+            ],
+            "flow_source": [
+                "aio"
+            ],
+            "flow_type": "Standard Flow",
+            "geographic": "Asia.Thailand",
+            "has_offense": "false",
+            "flow_interface": [
+                "aio:apphost_qradar_lab"
+            ],
+            "last_packet_time": "1686067138171",
+            "qid": 53250006,
+            "relevance": 6,
+            "severity": 1,
+            "suspect_content_descriptions": []
+        },
+        "1": {
+            "type": "software",
+            "name": "Mail.SMTP"
+        },
+        "2": {
+            "type": "x-oca-event",
+            "outcome": "Mail",
+            "network_ref": "3",
+            "action": "Mail.SMTP"
+        },
+        "3": {
+            "type": "network-traffic",
+            "dst_byte_count": 183108,
+            "dst_ref": "4",
+            "dst_packets": 100,
+            "dst_port": 25,
+            "protocols": [
+                "tcp"
+            ],
+            "src_byte_count": 510,
+            "src_ref": "6",
+            "src_packets": 100,
+            "src_port": 14799,
+            "ipfix": {
+                "flowId": 1263318389497620500
+            }
+        },
+        "4": {
+            "type": "ipv4-addr",
+            "value": "10.31.1.50"
+        },
+        "5": {
+            "type": "x-ibm-finding",
+            "dst_ip_ref": "4",
+            "src_ip_ref": "6",
+            "start": "2023-06-06T15:58:58.150Z",
+            "end": "2023-06-06T15:59:58.150Z"
+        },
+        "6": {
+            "type": "ipv4-addr",
+            "value": "103.7.59.135"
+        }
+    },
+    "first_observed": "2023-06-06T15:58:58.150Z",
+    "last_observed": "2023-06-06T15:59:58.150Z",
+    "number_observed": 1
+},
+{
+    "id": "observed-data--a0ee6148-496a-4780-abb4-120d3ae56f67",
+    "type": "observed-data",
+    "created_by_ref": "identity--b79d03f9-257d-408d-ac37-2e51dc6b5723",
+    "created": "2023-06-09T12:25:58.100Z",
+    "modified": "2023-06-09T12:25:58.100Z",
+    "objects": {
+        "0": {
+            "type": "x-qradar",
+            "application_id": "1004",
+            "credibility": 10,
+            "domain_id": 0,
+            "first_packet_time": "1686067138160",
+            "direction": "R2L",
+            "flow_interface_id": [
+                "55"
+            ],
+            "flow_source": [
+                "aio"
+            ],
+            "flow_type": "Standard Flow",
+            "geographic": "Asia.Thailand",
+            "has_offense": "true",
+            "flow_interface": [
+                "aio:apphost_qradar_lab"
+            ],
+            "last_packet_time": "1686067138161",
+            "qid": 53250006,
+            "relevance": 6,
+            "severity": 1,
+            "suspect_content_descriptions": []
+        },
+        "1": {
+            "type": "software",
+            "name": "Mail.SMTP"
+        },
+        "2": {
+            "type": "x-oca-event",
+            "outcome": "Mail",
+            "network_ref": "3",
+            "action": "Mail.SMTP",
+            "file_ref": "8"
+        },
+        "3": {
+            "type": "network-traffic",
+            "dst_byte_count": 0,
+            "dst_ref": "4",
+            "dst_packets": 0,
+            "dst_port": 25,
+            "protocols": [
+                "tcp"
+            ],
+            "src_byte_count": 0,
+            "src_ref": "6",
+            "src_packets": 0,
+            "src_port": 14799,
+            "ipfix": {
+                "flowId": 1263318389497620500
+            }
+        },
+        "4": {
+            "type": "ipv4-addr",
+            "value": "10.31.1.50"
+        },
+        "5": {
+            "type": "x-ibm-finding",
+            "dst_ip_ref": "4",
+            "src_ip_ref": "6",
+            "start": "2023-06-06T15:58:58.160Z",
+            "end": "2023-06-06T15:59:58.160Z"
+        },
+        "6": {
+            "type": "ipv4-addr",
+            "value": "103.7.59.135"
+        },
+        "8": {
+            "type": "file",
+            "hashes": {
+                "SHA-256": "f4382da7b00f67bb8abac9b3cea63ef7e73e068bc15802a7254d6b7a86dfa171"
+            },
+            "name": "PasswordCheck.xls",
+            "size": "34789"
+        }
+    },
+    "first_observed": "2023-06-06T15:58:58.160Z",
+    "last_observed": "2023-06-06T15:59:58.160Z",
+    "number_observed": 1
+},
+{
+    "id": "observed-data--bacf31ed-9a87-4eb2-a1f6-3d1e2bc568a7",
+    "type": "observed-data",
+    "created_by_ref": "identity--b79d03f9-257d-408d-ac37-2e51dc6b5723",
+    "created": "2023-06-09T12:25:58.094Z",
+    "modified": "2023-06-09T12:25:58.094Z",
+    "objects": {
+        "0": {
+            "type": "x-qradar",
+            "application_id": "1004",
+            "credibility": 10,
+            "domain_id": 0,
+            "first_packet_time": "1686067138180",
+            "direction": "R2L",
+            "flow_interface_id": [
+                "55"
+            ],
+            "flow_source": [
+                "aio"
+            ],
+            "flow_type": "Standard Flow",
+            "geographic": "Asia.Thailand",
+            "has_offense": "false",
+            "flow_interface": [
+                "aio:apphost_qradar_lab"
+            ],
+            "last_packet_time": "1686067139201",
+            "qid": 53250006,
+            "relevance": 6,
+            "severity": 1,
+            "suspect_content_descriptions": []
+        },
+        "1": {
+            "type": "software",
+            "name": "Mail.SMTP"
+        },
+        "2": {
+            "type": "x-oca-event",
+            "outcome": "Mail",
+            "network_ref": "3",
+            "action": "Mail.SMTP"
+        },
+        "3": {
+            "type": "network-traffic",
+            "dst_byte_count": 140229,
+            "dst_ref": "4",
+            "dst_packets": 100,
+            "dst_port": 25,
+            "protocols": [
+                "tcp"
+            ],
+            "src_byte_count": 374,
+            "src_ref": "6",
+            "src_packets": 100,
+            "src_port": 18021,
+            "ipfix": {
+                "flowId": 18312406945524236000
+            }
+        },
+        "4": {
+            "type": "ipv4-addr",
+            "value": "10.31.1.50"
+        },
+        "5": {
+            "type": "x-ibm-finding",
+            "dst_ip_ref": "4",
+            "src_ip_ref": "6",
+            "start": "2023-06-06T15:58:58.180Z",
+            "end": "2023-06-06T15:59:58.180Z"
+        },
+        "6": {
+            "type": "ipv4-addr",
+            "value": "103.7.59.135"
+        }
+    },
+    "first_observed": "2023-06-06T15:58:58.180Z",
+    "last_observed": "2023-06-06T15:59:58.180Z",
+    "number_observed": 1
+},
+{
+    "id": "observed-data--d09ee1a1-e657-4c27-8b01-3eb3c44e1cf4",
+    "type": "observed-data",
+    "created_by_ref": "identity--b79d03f9-257d-408d-ac37-2e51dc6b5723",
+    "created": "2023-06-09T12:25:58.100Z",
+    "modified": "2023-06-09T12:25:58.100Z",
+    "objects": {
+        "0": {
+            "type": "x-qradar",
+            "application_id": "1004",
+            "credibility": 10,
+            "domain_id": 0,
+            "first_packet_time": "1686067139190",
+            "direction": "R2L",
+            "flow_interface_id": [
+                "55"
+            ],
+            "flow_source": [
+                "aio"
+            ],
+            "flow_type": "Standard Flow",
+            "geographic": "Asia.Thailand",
+            "has_offense": "true",
+            "flow_interface": [
+                "aio:apphost_qradar_lab"
+            ],
+            "last_packet_time": "1686067139191",
+            "qid": 53250006,
+            "relevance": 6,
+            "severity": 1,
+            "suspect_content_descriptions": []
+        },
+        "1": {
+            "type": "software",
+            "name": "Mail.SMTP"
+        },
+        "2": {
+            "type": "x-oca-event",
+            "outcome": "Mail",
+            "network_ref": "3",
+            "action": "Mail.SMTP",
+            "file_ref": "8"
+        },
+        "3": {
+            "type": "network-traffic",
+            "dst_byte_count": 0,
+            "dst_ref": "4",
+            "dst_packets": 0,
+            "dst_port": 25,
+            "protocols": [
+                "tcp"
+            ],
+            "src_byte_count": 0,
+            "src_ref": "6",
+            "src_packets": 0,
+            "src_port": 18021,
+            "ipfix": {
+                "flowId": 18312406945524236000
+            }
+        },
+        "4": {
+            "type": "ipv4-addr",
+            "value": "10.31.1.50"
+        },
+        "5": {
+            "type": "x-ibm-finding",
+            "dst_ip_ref": "4",
+            "src_ip_ref": "6",
+            "start": "2023-06-06T15:58:59.190Z",
+            "end": "2023-06-06T15:59:59.190Z"
+        },
+        "6": {
+            "type": "ipv4-addr",
+            "value": "103.7.59.135"
+        },
+        "8": {
+            "type": "file",
+            "hashes": {
+                "SHA-256": "f4382da7b00f67bb8abac9b3cea63ef7e73e068bc15802a7254d6b7a86dfa171"
+            },
+            "name": "PasswordCheck.xls",
+            "size": "34789"
+        }
+    },
+    "first_observed": "2023-06-06T15:58:59.190Z",
+    "last_observed": "2023-06-06T15:59:59.190Z",
+    "number_observed": 1
+},
+{
+    "id": "observed-data--cfc3691f-4ee3-498c-9349-b2451e6d1452",
+    "type": "observed-data",
+    "created_by_ref": "identity--b79d03f9-257d-408d-ac37-2e51dc6b5723",
+    "created": "2023-06-09T12:25:58.095Z",
+    "modified": "2023-06-09T12:25:58.095Z",
+    "objects": {
+        "0": {
+            "type": "x-qradar",
+            "application_id": "1004",
+            "credibility": 10,
+            "domain_id": 0,
+            "first_packet_time": "1686067139210",
+            "direction": "R2L",
+            "flow_interface_id": [
+                "55"
+            ],
+            "flow_source": [
+                "aio"
+            ],
+            "flow_type": "Standard Flow",
+            "geographic": "Asia.Thailand",
+            "has_offense": "false",
+            "flow_interface": [
+                "aio:apphost_qradar_lab"
+            ],
+            "last_packet_time": "1686067139231",
+            "qid": 53250006,
+            "relevance": 6,
+            "severity": 1,
+            "suspect_content_descriptions": []
+        },
+        "1": {
+            "type": "software",
+            "name": "Mail.SMTP"
+        },
+        "2": {
+            "type": "x-oca-event",
+            "outcome": "Mail",
+            "network_ref": "3",
+            "action": "Mail.SMTP"
+        },
+        "3": {
+            "type": "network-traffic",
+            "dst_byte_count": 173668,
+            "dst_ref": "4",
+            "dst_packets": 100,
+            "dst_port": 25,
+            "protocols": [
+                "tcp"
+            ],
+            "src_byte_count": 568,
+            "src_ref": "6",
+            "src_packets": 100,
+            "src_port": 22817,
+            "ipfix": {
+                "flowId": 10447016856249350000
+            }
+        },
+        "4": {
+            "type": "ipv4-addr",
+            "value": "10.31.1.50"
+        },
+        "5": {
+            "type": "x-ibm-finding",
+            "dst_ip_ref": "4",
+            "src_ip_ref": "6",
+            "start": "2023-06-06T15:58:59.210Z",
+            "end": "2023-06-06T15:59:59.210Z"
+        },
+        "6": {
+            "type": "ipv4-addr",
+            "value": "103.7.59.135"
+        }
+    },
+    "first_observed": "2023-06-06T15:58:59.210Z",
+    "last_observed": "2023-06-06T15:59:59.210Z",
+    "number_observed": 1
+},
+{
+    "id": "observed-data--0b32efc3-2fa3-4d78-a16f-bbb6d8988924",
+    "type": "observed-data",
+    "created_by_ref": "identity--b79d03f9-257d-408d-ac37-2e51dc6b5723",
+    "created": "2023-06-09T12:25:58.099Z",
+    "modified": "2023-06-09T12:25:58.099Z",
+    "objects": {
+        "0": {
+            "type": "x-qradar",
+            "application_id": "1004",
+            "credibility": 10,
+            "domain_id": 0,
+            "first_packet_time": "1686067139220",
+            "direction": "R2L",
+            "flow_interface_id": [
+                "55"
+            ],
+            "flow_source": [
+                "aio"
+            ],
+            "flow_type": "Standard Flow",
+            "geographic": "Asia.Thailand",
+            "has_offense": "true",
+            "flow_interface": [
+                "aio:apphost_qradar_lab"
+            ],
+            "last_packet_time": "1686067139221",
+            "qid": 53250006,
+            "relevance": 6,
+            "severity": 1,
+            "suspect_content_descriptions": []
+        },
+        "1": {
+            "type": "software",
+            "name": "Mail.SMTP"
+        },
+        "2": {
+            "type": "x-oca-event",
+            "outcome": "Mail",
+            "network_ref": "3",
+            "action": "Mail.SMTP",
+            "file_ref": "8"
+        },
+        "3": {
+            "type": "network-traffic",
+            "dst_byte_count": 0,
+            "dst_ref": "4",
+            "dst_packets": 0,
+            "dst_port": 25,
+            "protocols": [
+                "tcp"
+            ],
+            "src_byte_count": 0,
+            "src_ref": "6",
+            "src_packets": 0,
+            "src_port": 22817,
+            "ipfix": {
+                "flowId": 10447016856249350000
+            }
+        },
+        "4": {
+            "type": "ipv4-addr",
+            "value": "10.31.1.50"
+        },
+        "5": {
+            "type": "x-ibm-finding",
+            "dst_ip_ref": "4",
+            "src_ip_ref": "6",
+            "start": "2023-06-06T15:58:59.220Z",
+            "end": "2023-06-06T15:59:59.220Z"
+        },
+        "6": {
+            "type": "ipv4-addr",
+            "value": "103.7.59.135"
+        },
+        "8": {
+            "type": "file",
+            "hashes": {
+                "SHA-256": "f4382da7b00f67bb8abac9b3cea63ef7e73e068bc15802a7254d6b7a86dfa171"
+            },
+            "name": "PasswordCheck.xls",
+            "size": "34789"
+        }
+    },
+    "first_observed": "2023-06-06T15:58:59.220Z",
+    "last_observed": "2023-06-06T15:59:59.220Z",
+    "number_observed": 1
+},
+{
+    "id": "observed-data--3c7f9ca3-3230-404d-9bc0-f44e968c8753",
+    "type": "observed-data",
+    "created_by_ref": "identity--b79d03f9-257d-408d-ac37-2e51dc6b5723",
+    "created": "2023-06-09T12:25:58.132Z",
+    "modified": "2023-06-09T12:25:58.132Z",
+    "objects": {
+        "0": {
+            "type": "x-qradar",
+            "application_id": "1004",
+            "credibility": 10,
+            "domain_id": 0,
+            "first_packet_time": "1686067140240",
+            "direction": "R2L",
+            "flow_interface_id": [
+                "55"
+            ],
+            "flow_source": [
+                "aio"
+            ],
+            "flow_type": "Standard Flow",
+            "geographic": "Asia.Thailand",
+            "has_offense": "false",
+            "flow_interface": [
+                "aio:apphost_qradar_lab"
+            ],
+            "last_packet_time": "1686067140261",
+            "qid": 53250006,
+            "relevance": 6,
+            "severity": 1,
+            "suspect_content_descriptions": []
+        },
+        "1": {
+            "type": "software",
+            "name": "Mail.SMTP"
+        },
+        "2": {
+            "type": "x-oca-event",
+            "outcome": "Mail",
+            "network_ref": "3",
+            "action": "Mail.SMTP"
+        },
+        "3": {
+            "type": "network-traffic",
+            "dst_byte_count": 138053,
+            "dst_ref": "4",
+            "dst_packets": 100,
+            "dst_port": 25,
+            "protocols": [
+                "tcp"
+            ],
+            "src_byte_count": 564,
+            "src_ref": "6",
+            "src_packets": 100,
+            "src_port": 13686,
+            "ipfix": {
+                "flowId": 6175127243870395000
+            }
+        },
+        "4": {
+            "type": "ipv4-addr",
+            "value": "10.31.1.50"
+        },
+        "5": {
+            "type": "x-ibm-finding",
+            "dst_ip_ref": "4",
+            "src_ip_ref": "6",
+            "start": "2023-06-06T15:59:00.240Z",
+            "end": "2023-06-06T16:00:00.240Z"
+        },
+        "6": {
+            "type": "ipv4-addr",
+            "value": "103.7.59.135"
+        }
+    },
+    "first_observed": "2023-06-06T15:59:00.240Z",
+    "last_observed": "2023-06-06T16:00:00.240Z",
+    "number_observed": 1
+},
+{
+    "id": "observed-data--2171a79a-8b10-4418-bbda-5301933bbea0",
+    "type": "observed-data",
+    "created_by_ref": "identity--b79d03f9-257d-408d-ac37-2e51dc6b5723",
+    "created": "2023-06-09T12:25:58.119Z",
+    "modified": "2023-06-09T12:25:58.119Z",
+    "objects": {
+        "0": {
+            "type": "x-qradar",
+            "application_id": "1004",
+            "credibility": 10,
+            "domain_id": 0,
+            "first_packet_time": "1686067140250",
+            "direction": "R2L",
+            "flow_interface_id": [
+                "55"
+            ],
+            "flow_source": [
+                "aio"
+            ],
+            "flow_type": "Standard Flow",
+            "geographic": "Asia.Thailand",
+            "has_offense": "true",
+            "flow_interface": [
+                "aio:apphost_qradar_lab"
+            ],
+            "last_packet_time": "1686067140251",
+            "qid": 53250006,
+            "relevance": 6,
+            "severity": 1,
+            "suspect_content_descriptions": []
+        },
+        "1": {
+            "type": "software",
+            "name": "Mail.SMTP"
+        },
+        "2": {
+            "type": "x-oca-event",
+            "outcome": "Mail",
+            "network_ref": "3",
+            "action": "Mail.SMTP",
+            "file_ref": "8"
+        },
+        "3": {
+            "type": "network-traffic",
+            "dst_byte_count": 0,
+            "dst_ref": "4",
+            "dst_packets": 0,
+            "dst_port": 25,
+            "protocols": [
+                "tcp"
+            ],
+            "src_byte_count": 0,
+            "src_ref": "6",
+            "src_packets": 0,
+            "src_port": 13686,
+            "ipfix": {
+                "flowId": 6175127243870395000
+            }
+        },
+        "4": {
+            "type": "ipv4-addr",
+            "value": "10.31.1.50"
+        },
+        "5": {
+            "type": "x-ibm-finding",
+            "dst_ip_ref": "4",
+            "src_ip_ref": "6",
+            "start": "2023-06-06T15:59:00.250Z",
+            "end": "2023-06-06T16:00:00.250Z"
+        },
+        "6": {
+            "type": "ipv4-addr",
+            "value": "103.7.59.135"
+        },
+        "8": {
+            "type": "file",
+            "hashes": {
+                "SHA-256": "f4382da7b00f67bb8abac9b3cea63ef7e73e068bc15802a7254d6b7a86dfa171"
+            },
+            "name": "PasswordCheck.xls",
+            "size": "34789"
+        }
+    },
+    "first_observed": "2023-06-06T15:59:00.250Z",
+    "last_observed": "2023-06-06T16:00:00.250Z",
+    "number_observed": 1
+},
+{
+    "id": "observed-data--0ea85c9b-6b43-483e-a519-374f3a8ddedf",
+    "type": "observed-data",
+    "created_by_ref": "identity--b79d03f9-257d-408d-ac37-2e51dc6b5723",
+    "created": "2023-06-09T12:25:58.130Z",
+    "modified": "2023-06-09T12:25:58.130Z",
+    "objects": {
+        "0": {
+            "type": "x-qradar",
+            "application_id": "1004",
+            "credibility": 10,
+            "domain_id": 0,
+            "first_packet_time": "1686067140270",
+            "direction": "R2L",
+            "flow_interface_id": [
+                "55"
+            ],
+            "flow_source": [
+                "aio"
+            ],
+            "flow_type": "Standard Flow",
+            "geographic": "Asia.Thailand",
+            "has_offense": "false",
+            "flow_interface": [
+                "aio:apphost_qradar_lab"
+            ],
+            "last_packet_time": "1686067140291",
+            "qid": 53250006,
+            "relevance": 6,
+            "severity": 1,
+            "suspect_content_descriptions": []
+        },
+        "1": {
+            "type": "software",
+            "name": "Mail.SMTP"
+        },
+        "2": {
+            "type": "x-oca-event",
+            "outcome": "Mail",
+            "network_ref": "3",
+            "action": "Mail.SMTP"
+        },
+        "3": {
+            "type": "network-traffic",
+            "dst_byte_count": 169275,
+            "dst_ref": "4",
+            "dst_packets": 100,
+            "dst_port": 25,
+            "protocols": [
+                "tcp"
+            ],
+            "src_byte_count": 465,
+            "src_ref": "6",
+            "src_packets": 100,
+            "src_port": 23955,
+            "ipfix": {
+                "flowId": 3317079103886634000
+            }
+        },
+        "4": {
+            "type": "ipv4-addr",
+            "value": "10.31.1.50"
+        },
+        "5": {
+            "type": "x-ibm-finding",
+            "dst_ip_ref": "4",
+            "src_ip_ref": "6",
+            "start": "2023-06-06T15:59:00.270Z",
+            "end": "2023-06-06T16:00:00.270Z"
+        },
+        "6": {
+            "type": "ipv4-addr",
+            "value": "103.7.59.135"
+        }
+    },
+    "first_observed": "2023-06-06T15:59:00.270Z",
+    "last_observed": "2023-06-06T16:00:00.270Z",
+    "number_observed": 1
+},
+{
+    "id": "observed-data--eec4bf47-e728-48a2-88ab-f326b05e0455",
+    "type": "observed-data",
+    "created_by_ref": "identity--b79d03f9-257d-408d-ac37-2e51dc6b5723",
+    "created": "2023-06-09T12:25:58.119Z",
+    "modified": "2023-06-09T12:25:58.119Z",
+    "objects": {
+        "0": {
+            "type": "x-qradar",
+            "application_id": "1004",
+            "credibility": 10,
+            "domain_id": 0,
+            "first_packet_time": "1686067140280",
+            "direction": "R2L",
+            "flow_interface_id": [
+                "55"
+            ],
+            "flow_source": [
+                "aio"
+            ],
+            "flow_type": "Standard Flow",
+            "geographic": "Asia.Thailand",
+            "has_offense": "true",
+            "flow_interface": [
+                "aio:apphost_qradar_lab"
+            ],
+            "last_packet_time": "1686067140281",
+            "qid": 53250006,
+            "relevance": 6,
+            "severity": 1,
+            "suspect_content_descriptions": []
+        },
+        "1": {
+            "type": "software",
+            "name": "Mail.SMTP"
+        },
+        "2": {
+            "type": "x-oca-event",
+            "outcome": "Mail",
+            "network_ref": "3",
+            "action": "Mail.SMTP",
+            "file_ref": "8"
+        },
+        "3": {
+            "type": "network-traffic",
+            "dst_byte_count": 0,
+            "dst_ref": "4",
+            "dst_packets": 0,
+            "dst_port": 25,
+            "protocols": [
+                "tcp"
+            ],
+            "src_byte_count": 0,
+            "src_ref": "6",
+            "src_packets": 0,
+            "src_port": 23955,
+            "ipfix": {
+                "flowId": 3317079103886634000
+            }
+        },
+        "4": {
+            "type": "ipv4-addr",
+            "value": "10.31.1.50"
+        },
+        "5": {
+            "type": "x-ibm-finding",
+            "dst_ip_ref": "4",
+            "src_ip_ref": "6",
+            "start": "2023-06-06T15:59:00.280Z",
+            "end": "2023-06-06T16:00:00.280Z"
+        },
+        "6": {
+            "type": "ipv4-addr",
+            "value": "103.7.59.135"
+        },
+        "8": {
+            "type": "file",
+            "hashes": {
+                "SHA-256": "f4382da7b00f67bb8abac9b3cea63ef7e73e068bc15802a7254d6b7a86dfa171"
+            },
+            "name": "PasswordCheck.xls",
+            "size": "34789"
+        }
+    },
+    "first_observed": "2023-06-06T15:59:00.280Z",
+    "last_observed": "2023-06-06T16:00:00.280Z",
+    "number_observed": 1
+},
+{
+    "id": "observed-data--f964c2d3-4b6f-41d4-bafe-0a603f56a7ef",
+    "type": "observed-data",
+    "created_by_ref": "identity--b79d03f9-257d-408d-ac37-2e51dc6b5723",
+    "created": "2023-06-09T12:25:58.137Z",
+    "modified": "2023-06-09T12:25:58.137Z",
+    "objects": {
+        "0": {
+            "type": "x-qradar",
+            "application_id": "1004",
+            "credibility": 10,
+            "domain_id": 0,
+            "first_packet_time": "1686067140300",
+            "direction": "R2L",
+            "flow_interface_id": [
+                "55"
+            ],
+            "flow_source": [
+                "aio"
+            ],
+            "flow_type": "Standard Flow",
+            "geographic": "Asia.Thailand",
+            "has_offense": "false",
+            "flow_interface": [
+                "aio:apphost_qradar_lab"
+            ],
+            "last_packet_time": "1686067141321",
+            "qid": 53250006,
+            "relevance": 6,
+            "severity": 1,
+            "suspect_content_descriptions": []
+        },
+        "1": {
+            "type": "software",
+            "name": "Mail.SMTP"
+        },
+        "2": {
+            "type": "x-oca-event",
+            "outcome": "Mail",
+            "network_ref": "3",
+            "action": "Mail.SMTP"
+        },
+        "3": {
+            "type": "network-traffic",
+            "dst_byte_count": 180377,
+            "dst_ref": "4",
+            "dst_packets": 100,
+            "dst_port": 25,
+            "protocols": [
+                "tcp"
+            ],
+            "src_byte_count": 571,
+            "src_ref": "6",
+            "src_packets": 100,
+            "src_port": 23146,
+            "ipfix": {
+                "flowId": 4990864741358519000
+            }
+        },
+        "4": {
+            "type": "ipv4-addr",
+            "value": "10.31.1.50"
+        },
+        "5": {
+            "type": "x-ibm-finding",
+            "dst_ip_ref": "4",
+            "src_ip_ref": "6",
+            "start": "2023-06-06T15:59:00.300Z",
+            "end": "2023-06-06T16:00:00.300Z"
+        },
+        "6": {
+            "type": "ipv4-addr",
+            "value": "103.7.59.135"
+        }
+    },
+    "first_observed": "2023-06-06T15:59:00.300Z",
+    "last_observed": "2023-06-06T16:00:00.300Z",
+    "number_observed": 1
+},
+{
+    "id": "observed-data--41147d9e-6f34-473c-844a-a518069ee027",
+    "type": "observed-data",
+    "created_by_ref": "identity--b79d03f9-257d-408d-ac37-2e51dc6b5723",
+    "created": "2023-06-09T12:25:58.134Z",
+    "modified": "2023-06-09T12:25:58.134Z",
+    "objects": {
+        "0": {
+            "type": "x-qradar",
+            "application_id": "1004",
+            "credibility": 10,
+            "domain_id": 0,
+            "first_packet_time": "1686067141000",
+            "direction": "R2L",
+            "flow_interface_id": [
+                "55"
+            ],
+            "flow_source": [
+                "aio"
+            ],
+            "flow_type": "Standard Flow",
+            "geographic": "Asia.Thailand",
+            "has_offense": "false",
+            "flow_interface": [
+                "aio:apphost_qradar_lab"
+            ],
+            "last_packet_time": "1686067142021",
+            "qid": 53250006,
+            "relevance": 6,
+            "severity": 1,
+            "suspect_content_descriptions": []
+        },
+        "1": {
+            "type": "software",
+            "name": "Mail.SMTP"
+        },
+        "2": {
+            "type": "x-oca-event",
+            "outcome": "Mail",
+            "network_ref": "3",
+            "action": "Mail.SMTP"
+        },
+        "3": {
+            "type": "network-traffic",
+            "dst_byte_count": 153092,
+            "dst_ref": "4",
+            "dst_packets": 100,
+            "dst_port": 25,
+            "protocols": [
+                "tcp"
+            ],
+            "src_byte_count": 440,
+            "src_ref": "6",
+            "src_packets": 100,
+            "src_port": 15906,
+            "ipfix": {
+                "flowId": 15843978319718550000
+            }
+        },
+        "4": {
+            "type": "ipv4-addr",
+            "value": "10.31.1.50"
+        },
+        "5": {
+            "type": "x-ibm-finding",
+            "dst_ip_ref": "4",
+            "src_ip_ref": "6",
+            "start": "2023-06-06T15:59:01.000Z",
+            "end": "2023-06-06T16:00:01.000Z"
+        },
+        "6": {
+            "type": "ipv4-addr",
+            "value": "103.7.59.135"
+        }
+    },
+    "first_observed": "2023-06-06T15:59:01.000Z",
+    "last_observed": "2023-06-06T16:00:01.000Z",
+    "number_observed": 1
+},
+{
+    "id": "observed-data--a0af51bc-8639-47b4-9400-eb472f4ae4b7",
+    "type": "observed-data",
+    "created_by_ref": "identity--b79d03f9-257d-408d-ac37-2e51dc6b5723",
+    "created": "2023-06-09T12:25:58.121Z",
+    "modified": "2023-06-09T12:25:58.121Z",
+    "objects": {
+        "0": {
+            "type": "x-qradar",
+            "application_id": "1004",
+            "credibility": 10,
+            "domain_id": 0,
+            "first_packet_time": "1686067141010",
+            "direction": "R2L",
+            "flow_interface_id": [
+                "55"
+            ],
+            "flow_source": [
+                "aio"
+            ],
+            "flow_type": "Standard Flow",
+            "geographic": "Asia.Thailand",
+            "has_offense": "true",
+            "flow_interface": [
+                "aio:apphost_qradar_lab"
+            ],
+            "last_packet_time": "1686067141011",
+            "qid": 53250006,
+            "relevance": 6,
+            "severity": 1,
+            "suspect_content_descriptions": []
+        },
+        "1": {
+            "type": "software",
+            "name": "Mail.SMTP"
+        },
+        "2": {
+            "type": "x-oca-event",
+            "outcome": "Mail",
+            "network_ref": "3",
+            "action": "Mail.SMTP",
+            "file_ref": "8"
+        },
+        "3": {
+            "type": "network-traffic",
+            "dst_byte_count": 0,
+            "dst_ref": "4",
+            "dst_packets": 0,
+            "dst_port": 25,
+            "protocols": [
+                "tcp"
+            ],
+            "src_byte_count": 0,
+            "src_ref": "6",
+            "src_packets": 0,
+            "src_port": 15906,
+            "ipfix": {
+                "flowId": 15843978319718550000
+            }
+        },
+        "4": {
+            "type": "ipv4-addr",
+            "value": "10.31.1.50"
+        },
+        "5": {
+            "type": "x-ibm-finding",
+            "dst_ip_ref": "4",
+            "src_ip_ref": "6",
+            "start": "2023-06-06T15:59:01.010Z",
+            "end": "2023-06-06T16:00:01.010Z"
+        },
+        "6": {
+            "type": "ipv4-addr",
+            "value": "103.7.59.135"
+        },
+        "8": {
+            "type": "file",
+            "name": "PasswordCheck.xls",
+            "size": "34789"
+        }
+    },
+    "first_observed": "2023-06-06T15:59:01.010Z",
+    "last_observed": "2023-06-06T16:00:01.010Z",
+    "number_observed": 1
+},
+{
+    "id": "observed-data--7ed3e721-875e-48a5-a49d-999abdd837c9",
+    "type": "observed-data",
+    "created_by_ref": "identity--b79d03f9-257d-408d-ac37-2e51dc6b5723",
+    "created": "2023-06-09T12:25:58.120Z",
+    "modified": "2023-06-09T12:25:58.120Z",
+    "objects": {
+        "0": {
+            "type": "x-qradar",
+            "application_id": "1004",
+            "credibility": 10,
+            "domain_id": 0,
+            "first_packet_time": "1686067141310",
+            "direction": "R2L",
+            "flow_interface_id": [
+                "55"
+            ],
+            "flow_source": [
+                "aio"
+            ],
+            "flow_type": "Standard Flow",
+            "geographic": "Asia.Thailand",
+            "has_offense": "true",
+            "flow_interface": [
+                "aio:apphost_qradar_lab"
+            ],
+            "last_packet_time": "1686067141311",
+            "qid": 53250006,
+            "relevance": 6,
+            "severity": 1,
+            "suspect_content_descriptions": []
+        },
+        "1": {
+            "type": "software",
+            "name": "Mail.SMTP"
+        },
+        "2": {
+            "type": "x-oca-event",
+            "outcome": "Mail",
+            "network_ref": "3",
+            "action": "Mail.SMTP",
+            "file_ref": "8"
+        },
+        "3": {
+            "type": "network-traffic",
+            "dst_byte_count": 0,
+            "dst_ref": "4",
+            "dst_packets": 0,
+            "dst_port": 25,
+            "protocols": [
+                "tcp"
+            ],
+            "src_byte_count": 0,
+            "src_ref": "6",
+            "src_packets": 0,
+            "src_port": 23146,
+            "ipfix": {
+                "flowId": 4990864741358519000
+            }
+        },
+        "4": {
+            "type": "ipv4-addr",
+            "value": "10.31.1.50"
+        },
+        "5": {
+            "type": "x-ibm-finding",
+            "dst_ip_ref": "4",
+            "src_ip_ref": "6",
+            "start": "2023-06-06T15:59:01.310Z",
+            "end": "2023-06-06T16:00:01.310Z"
+        },
+        "6": {
+            "type": "ipv4-addr",
+            "value": "103.7.59.135"
+        },
+        "8": {
+            "type": "file",
+            "hashes": {
+                "SHA-256": "f4382da7b00f67bb8abac9b3cea63ef7e73e068bc15802a7254d6b7a86dfa171"
+            },
+            "name": "PasswordCheck.xls",
+            "size": "34789"
+        }
+    },
+    "first_observed": "2023-06-06T15:59:01.310Z",
+    "last_observed": "2023-06-06T16:00:01.310Z",
+    "number_observed": 1
+},
+{
+    "id": "observed-data--d40fcc24-9de8-4bfd-9ea2-6035bdab9c12",
+    "type": "observed-data",
+    "created_by_ref": "identity--b79d03f9-257d-408d-ac37-2e51dc6b5723",
+    "created": "2023-06-09T12:25:58.137Z",
+    "modified": "2023-06-09T12:25:58.137Z",
+    "objects": {
+        "0": {
+            "type": "x-qradar",
+            "application_id": "1004",
+            "credibility": 10,
+            "domain_id": 0,
+            "first_packet_time": "1686067141330",
+            "direction": "R2L",
+            "flow_interface_id": [
+                "55"
+            ],
+            "flow_source": [
+                "aio"
+            ],
+            "flow_type": "Standard Flow",
+            "geographic": "Asia.Thailand",
+            "has_offense": "false",
+            "flow_interface": [
+                "aio:apphost_qradar_lab"
+            ],
+            "last_packet_time": "1686067141351",
+            "qid": 53250006,
+            "relevance": 6,
+            "severity": 1,
+            "suspect_content_descriptions": []
+        },
+        "1": {
+            "type": "software",
+            "name": "Mail.SMTP"
+        },
+        "2": {
+            "type": "x-oca-event",
+            "outcome": "Mail",
+            "network_ref": "3",
+            "action": "Mail.SMTP"
+        },
+        "3": {
+            "type": "network-traffic",
+            "dst_byte_count": 157281,
+            "dst_ref": "4",
+            "dst_packets": 100,
+            "dst_port": 25,
+            "protocols": [
+                "tcp"
+            ],
+            "src_byte_count": 548,
+            "src_ref": "6",
+            "src_packets": 100,
+            "src_port": 21372,
+            "ipfix": {
+                "flowId": 11123927419586824000
+            }
+        },
+        "4": {
+            "type": "ipv4-addr",
+            "value": "10.31.1.50"
+        },
+        "5": {
+            "type": "x-ibm-finding",
+            "dst_ip_ref": "4",
+            "src_ip_ref": "6",
+            "start": "2023-06-06T15:59:01.330Z",
+            "end": "2023-06-06T16:00:01.330Z"
+        },
+        "6": {
+            "type": "ipv4-addr",
+            "value": "103.7.59.135"
+        }
+    },
+    "first_observed": "2023-06-06T15:59:01.330Z",
+    "last_observed": "2023-06-06T16:00:01.330Z",
+    "number_observed": 1
+},
+{
+    "id": "observed-data--dd9b8595-6aab-4009-9ee2-082d19cdbae9",
+    "type": "observed-data",
+    "created_by_ref": "identity--b79d03f9-257d-408d-ac37-2e51dc6b5723",
+    "created": "2023-06-09T12:25:58.121Z",
+    "modified": "2023-06-09T12:25:58.121Z",
+    "objects": {
+        "0": {
+            "type": "x-qradar",
+            "application_id": "1004",
+            "credibility": 10,
+            "domain_id": 0,
+            "first_packet_time": "1686067141340",
+            "direction": "R2L",
+            "flow_interface_id": [
+                "55"
+            ],
+            "flow_source": [
+                "aio"
+            ],
+            "flow_type": "Standard Flow",
+            "geographic": "Asia.Thailand",
+            "has_offense": "true",
+            "flow_interface": [
+                "aio:apphost_qradar_lab"
+            ],
+            "last_packet_time": "1686067141341",
+            "qid": 53250006,
+            "relevance": 6,
+            "severity": 1,
+            "suspect_content_descriptions": []
+        },
+        "1": {
+            "type": "software",
+            "name": "Mail.SMTP"
+        },
+        "2": {
+            "type": "x-oca-event",
+            "outcome": "Mail",
+            "network_ref": "3",
+            "action": "Mail.SMTP",
+            "file_ref": "8"
+        },
+        "3": {
+            "type": "network-traffic",
+            "dst_byte_count": 0,
+            "dst_ref": "4",
+            "dst_packets": 0,
+            "dst_port": 25,
+            "protocols": [
+                "tcp"
+            ],
+            "src_byte_count": 0,
+            "src_ref": "6",
+            "src_packets": 0,
+            "src_port": 21372,
+            "ipfix": {
+                "flowId": 11123927419586824000
+            }
+        },
+        "4": {
+            "type": "ipv4-addr",
+            "value": "10.31.1.50"
+        },
+        "5": {
+            "type": "x-ibm-finding",
+            "dst_ip_ref": "4",
+            "src_ip_ref": "6",
+            "start": "2023-06-06T15:59:01.340Z",
+            "end": "2023-06-06T16:00:01.340Z"
+        },
+        "6": {
+            "type": "ipv4-addr",
+            "value": "103.7.59.135"
+        },
+        "8": {
+            "type": "file",
+            "hashes": {
+                "SHA-256": "f4382da7b00f67bb8abac9b3cea63ef7e73e068bc15802a7254d6b7a86dfa171"
+            },
+            "name": "PasswordCheck.xls",
+            "size": "34789"
+        }
+    },
+    "first_observed": "2023-06-06T15:59:01.340Z",
+    "last_observed": "2023-06-06T16:00:01.340Z",
+    "number_observed": 1
+},
+{
+    "id": "observed-data--b824c967-f0a0-4741-a915-c9cf73b4f1e7",
+    "type": "observed-data",
+    "created_by_ref": "identity--b79d03f9-257d-408d-ac37-2e51dc6b5723",
+    "created": "2023-06-09T12:25:58.133Z",
+    "modified": "2023-06-09T12:25:58.133Z",
+    "objects": {
+        "0": {
+            "type": "x-qradar",
+            "application_id": "1004",
+            "credibility": 10,
+            "domain_id": 0,
+            "first_packet_time": "1686067142000",
+            "direction": "R2L",
+            "flow_interface_id": [
+                "55"
+            ],
+            "flow_source": [
+                "aio"
+            ],
+            "flow_type": "Standard Flow",
+            "geographic": "Asia.Thailand",
+            "has_offense": "false",
+            "flow_interface": [
+                "aio:apphost_qradar_lab"
+            ],
+            "last_packet_time": "1686067142021",
+            "qid": 53250006,
+            "relevance": 6,
+            "severity": 1,
+            "suspect_content_descriptions": []
+        },
+        "1": {
+            "type": "software",
+            "name": "Mail.SMTP"
+        },
+        "2": {
+            "type": "x-oca-event",
+            "outcome": "Mail",
+            "network_ref": "3",
+            "action": "Mail.SMTP"
+        },
+        "3": {
+            "type": "network-traffic",
+            "dst_byte_count": 167317,
+            "dst_ref": "4",
+            "dst_packets": 100,
+            "dst_port": 25,
+            "protocols": [
+                "tcp"
+            ],
+            "src_byte_count": 383,
+            "src_ref": "6",
+            "src_packets": 100,
+            "src_port": 17267,
+            "ipfix": {
+                "flowId": 5118523281836537000
+            }
+        },
+        "4": {
+            "type": "ipv4-addr",
+            "value": "10.31.1.50"
+        },
+        "5": {
+            "type": "x-ibm-finding",
+            "dst_ip_ref": "4",
+            "src_ip_ref": "6",
+            "start": "2023-06-06T15:59:02.000Z",
+            "end": "2023-06-06T16:00:02.000Z"
+        },
+        "6": {
+            "type": "ipv4-addr",
+            "value": "103.7.59.135"
+        }
+    },
+    "first_observed": "2023-06-06T15:59:02.000Z",
+    "last_observed": "2023-06-06T16:00:02.000Z",
+    "number_observed": 1
+}
