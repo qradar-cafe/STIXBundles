@@ -1,4 +1,4 @@
-{
+[{
     "id": "observed-data--5c9ced04-87af-4ab5-999c-1aa1d240ee1d",
     "type": "observed-data",
     "created_by_ref": "identity--b79d03f9-257d-408d-ac37-2e51dc6b5723",
@@ -2244,4 +2244,4 @@
     "first_observed": "2023-06-06T15:59:02.000Z",
     "last_observed": "2023-06-06T16:00:02.000Z",
     "number_observed": 1
-}
+}]
