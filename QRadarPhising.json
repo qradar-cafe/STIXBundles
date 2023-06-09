@@ -2248,7 +2248,403 @@
     "last_observed": "2023-06-06T16:00:02.000Z",
     "number_observed": 1
 },
-              {
+               {
+    "id": "observed-data--32dd4a67-d2d4-43a4-a4bf-e6d724c6e7f5",
+    "type": "observed-data",
+    "created_by_ref": "identity--b79d03f9-257d-408d-ac37-2e51dc6b5723",
+    "created": "2023-06-09T12:25:58.116Z",
+    "modified": "2023-06-09T12:25:58.116Z",
+    "objects": {
+        "0": {
+            "type": "x-qradar",
+            "application_id": "1017",
+            "credibility": 10,
+            "domain_id": 0,
+            "first_packet_time": "1686067259390",
+            "direction": "L2L",
+            "flow_interface_id": [
+                "55"
+            ],
+            "flow_source": [
+                "aio"
+            ],
+            "flow_type": "Standard Flow",
+            "geographic": "other",
+            "has_offense": "false",
+            "flow_interface": [
+                "aio:apphost_qradar_lab"
+            ],
+            "last_packet_time": "1686067259391",
+            "qid": 53268769,
+            "relevance": 10,
+            "severity": 2,
+            "suspect_content_descriptions": []
+        },
+        "1": {
+            "type": "software",
+            "name": "Misc.DNS"
+        },
+        "2": {
+            "type": "x-oca-event",
+            "outcome": "Misc",
+            "network_ref": "3",
+            "action": "Misc.DNS"
+        },
+        "3": {
+            "type": "network-traffic",
+            "dst_byte_count": 0,
+            "dst_ref": "4",
+            "dst_packets": 0,
+            "dst_port": 53,
+            "protocols": [
+                "udp"
+            ],
+            "src_byte_count": 0,
+            "src_ref": "6",
+            "src_packets": 0,
+            "src_port": 14083,
+            "ipfix": {
+                "flowId": 6047016805280741000
+            }
+        },
+        "4": {
+            "type": "ipv4-addr",
+            "value": "10.31.1.50"
+        },
+        "5": {
+            "type": "x-ibm-finding",
+            "dst_ip_ref": "4",
+            "src_ip_ref": "6",
+            "start": "2023-06-06T16:00:59.390Z",
+            "end": "2023-06-06T16:01:59.390Z"
+        },
+        "6": {
+            "type": "ipv4-addr",
+            "value": "192.168.1.5"
+        }
+    },
+    "first_observed": "2023-06-06T16:00:59.390Z",
+    "last_observed": "2023-06-06T16:01:59.390Z",
+    "number_observed": 1
+},
+               {
+    "id": "observed-data--2ea94fb3-c251-4f7b-8238-4985f312615d",
+    "type": "observed-data",
+    "created_by_ref": "identity--b79d03f9-257d-408d-ac37-2e51dc6b5723",
+    "created": "2023-06-09T12:25:58.115Z",
+    "modified": "2023-06-09T12:25:58.115Z",
+    "objects": {
+        "0": {
+            "type": "x-qradar",
+            "application_id": "1017",
+            "credibility": 10,
+            "domain_id": 0,
+            "first_packet_time": "1686067259380",
+            "direction": "L2L",
+            "flow_interface_id": [
+                "55"
+            ],
+            "flow_source": [
+                "aio"
+            ],
+            "flow_type": "Standard Flow",
+            "geographic": "other",
+            "has_offense": "false",
+            "flow_interface": [
+                "aio:apphost_qradar_lab"
+            ],
+            "last_packet_time": "1686067259381",
+            "qid": 53268769,
+            "relevance": 10,
+            "severity": 2,
+            "suspect_content_descriptions": []
+        },
+        "1": {
+            "type": "software",
+            "name": "Misc.DNS"
+        },
+        "2": {
+            "type": "x-oca-event",
+            "outcome": "Misc",
+            "network_ref": "3",
+            "action": "Misc.DNS"
+        },
+        "3": {
+            "type": "network-traffic",
+            "dst_byte_count": 0,
+            "dst_ref": "4",
+            "dst_packets": 0,
+            "dst_port": 53,
+            "protocols": [
+                "udp"
+            ],
+            "src_byte_count": 0,
+            "src_ref": "6",
+            "src_packets": 0,
+            "src_port": 14083,
+            "ipfix": {
+                "flowId": 6047016805280741000
+            }
+        },
+        "4": {
+            "type": "ipv4-addr",
+            "value": "10.31.1.50"
+        },
+        "5": {
+            "type": "x-ibm-finding",
+            "dst_ip_ref": "4",
+            "src_ip_ref": "6",
+            "start": "2023-06-06T16:00:59.380Z",
+            "end": "2023-06-06T16:01:59.380Z"
+        },
+        "6": {
+            "type": "ipv4-addr",
+            "value": "192.168.1.5"
+        }
+    },
+    "first_observed": "2023-06-06T16:00:59.380Z",
+    "last_observed": "2023-06-06T16:01:59.380Z",
+    "number_observed": 1
+},
+               {
+    "id": "observed-data--05362502-5059-475c-b1ba-eb7b5e30a890",
+    "type": "observed-data",
+    "created_by_ref": "identity--b79d03f9-257d-408d-ac37-2e51dc6b5723",
+    "created": "2023-06-09T12:25:58.102Z",
+    "modified": "2023-06-09T12:25:58.102Z",
+    "objects": {
+        "0": {
+            "type": "x-qradar",
+            "application_id": "21036",
+            "credibility": 10,
+            "domain_id": 0,
+            "first_packet_time": "1686067258360",
+            "direction": "L2L",
+            "flow_interface_id": [
+                "55"
+            ],
+            "flow_source": [
+                "aio"
+            ],
+            "flow_type": "Standard Flow",
+            "geographic": "other",
+            "has_offense": "false",
+            "flow_interface": [
+                "aio:apphost_qradar_lab"
+            ],
+            "last_packet_time": "1686067258371",
+            "qid": 53258563,
+            "relevance": 10,
+            "severity": 2,
+            "suspect_content_descriptions": []
+        },
+        "1": {
+            "type": "software",
+            "name": "Misc.domain"
+        },
+        "2": {
+            "type": "x-oca-event",
+            "outcome": "Misc",
+            "network_ref": "3",
+            "action": "Misc.domain"
+        },
+        "3": {
+            "type": "network-traffic",
+            "dst_byte_count": 64,
+            "dst_ref": "4",
+            "dst_packets": 1,
+            "dst_port": 53,
+            "protocols": [
+                "udp"
+            ],
+            "src_byte_count": 64,
+            "src_ref": "6",
+            "src_packets": 1,
+            "src_port": 14083,
+            "ipfix": {
+                "flowId": 6047016805280741000
+            }
+        },
+        "4": {
+            "type": "ipv4-addr",
+            "value": "10.31.1.50"
+        },
+        "5": {
+            "type": "x-ibm-finding",
+            "dst_ip_ref": "4",
+            "src_ip_ref": "6",
+            "start": "2023-06-06T16:00:58.360Z",
+            "end": "2023-06-06T16:01:58.360Z"
+        },
+        "6": {
+            "type": "ipv4-addr",
+            "value": "192.168.1.5"
+        }
+    },
+    "first_observed": "2023-06-06T16:00:58.360Z",
+    "last_observed": "2023-06-06T16:01:58.360Z",
+    "number_observed": 1
+},
+               {
+    "id": "observed-data--015281b4-da36-40a3-b23f-ccd69b877642",
+    "type": "observed-data",
+    "created_by_ref": "identity--b79d03f9-257d-408d-ac37-2e51dc6b5723",
+    "created": "2023-06-09T12:25:58.118Z",
+    "modified": "2023-06-09T12:25:58.118Z",
+    "objects": {
+        "0": {
+            "type": "x-qradar",
+            "application_id": "1017",
+            "credibility": 10,
+            "domain_id": 0,
+            "first_packet_time": "1686067258350",
+            "direction": "L2L",
+            "flow_interface_id": [
+                "55"
+            ],
+            "flow_source": [
+                "aio"
+            ],
+            "flow_type": "Standard Flow",
+            "geographic": "other",
+            "has_offense": "false",
+            "flow_interface": [
+                "aio:apphost_qradar_lab"
+            ],
+            "last_packet_time": "1686067258351",
+            "qid": 53268769,
+            "relevance": 10,
+            "severity": 2,
+            "suspect_content_descriptions": []
+        },
+        "1": {
+            "type": "software",
+            "name": "Misc.DNS"
+        },
+        "2": {
+            "type": "x-oca-event",
+            "outcome": "Misc",
+            "network_ref": "3",
+            "action": "Misc.DNS"
+        },
+        "3": {
+            "type": "network-traffic",
+            "dst_byte_count": 0,
+            "dst_ref": "4",
+            "dst_packets": 0,
+            "dst_port": 53,
+            "protocols": [
+                "udp"
+            ],
+            "src_byte_count": 0,
+            "src_ref": "6",
+            "src_packets": 0,
+            "src_port": 23786,
+            "ipfix": {
+                "flowId": 6267578379763218000
+            }
+        },
+        "4": {
+            "type": "ipv4-addr",
+            "value": "10.31.1.50"
+        },
+        "5": {
+            "type": "x-ibm-finding",
+            "dst_ip_ref": "4",
+            "src_ip_ref": "6",
+            "start": "2023-06-06T16:00:58.350Z",
+            "end": "2023-06-06T16:01:58.350Z"
+        },
+        "6": {
+            "type": "ipv4-addr",
+            "value": "192.168.1.5"
+        }
+    },
+    "first_observed": "2023-06-06T16:00:58.350Z",
+    "last_observed": "2023-06-06T16:01:58.350Z",
+    "number_observed": 1
+},
+               {
+    "id": "observed-data--9f7f75d2-8d92-412e-9c09-1023442a0aca",
+    "type": "observed-data",
+    "created_by_ref": "identity--b79d03f9-257d-408d-ac37-2e51dc6b5723",
+    "created": "2023-06-09T12:25:58.118Z",
+    "modified": "2023-06-09T12:25:58.118Z",
+    "objects": {
+        "0": {
+            "type": "x-qradar",
+            "application_id": "1017",
+            "credibility": 10,
+            "domain_id": 0,
+            "first_packet_time": "1686067258340",
+            "direction": "L2L",
+            "flow_interface_id": [
+                "55"
+            ],
+            "flow_source": [
+                "aio"
+            ],
+            "flow_type": "Standard Flow",
+            "geographic": "other",
+            "has_offense": "false",
+            "flow_interface": [
+                "aio:apphost_qradar_lab"
+            ],
+            "last_packet_time": "1686067258341",
+            "qid": 53268769,
+            "relevance": 10,
+            "severity": 2,
+            "suspect_content_descriptions": []
+        },
+        "1": {
+            "type": "software",
+            "name": "Misc.DNS"
+        },
+        "2": {
+            "type": "x-oca-event",
+            "outcome": "Misc",
+            "network_ref": "3",
+            "action": "Misc.DNS"
+        },
+        "3": {
+            "type": "network-traffic",
+            "dst_byte_count": 0,
+            "dst_ref": "4",
+            "dst_packets": 0,
+            "dst_port": 53,
+            "protocols": [
+                "udp"
+            ],
+            "src_byte_count": 0,
+            "src_ref": "6",
+            "src_packets": 0,
+            "src_port": 23786,
+            "ipfix": {
+                "flowId": 6267578379763218000
+            }
+        },
+        "4": {
+            "type": "ipv4-addr",
+            "value": "10.31.1.50"
+        },
+        "5": {
+            "type": "x-ibm-finding",
+            "dst_ip_ref": "4",
+            "src_ip_ref": "6",
+            "start": "2023-06-06T16:00:58.340Z",
+            "end": "2023-06-06T16:01:58.340Z"
+        },
+        "6": {
+            "type": "ipv4-addr",
+            "value": "192.168.1.5"
+        }
+    },
+    "first_observed": "2023-06-06T16:00:58.340Z",
+    "last_observed": "2023-06-06T16:01:58.340Z",
+    "number_observed": 1
+},
+               
+{
     "id": "observed-data--85f22978-225d-42b6-93b0-196e4fd9933e",
     "type": "observed-data",
     "created_by_ref": "identity--b79d03f9-257d-408d-ac37-2e51dc6b5723",
