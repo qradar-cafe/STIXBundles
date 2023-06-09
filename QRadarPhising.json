@@ -2247,6 +2247,579 @@
     "first_observed": "2023-06-06T15:59:02.000Z",
     "last_observed": "2023-06-06T16:00:02.000Z",
     "number_observed": 1
-}],
+},
+              {
+    "id": "observed-data--85f22978-225d-42b6-93b0-196e4fd9933e",
+    "type": "observed-data",
+    "created_by_ref": "identity--b79d03f9-257d-408d-ac37-2e51dc6b5723",
+    "created": "2023-06-09T12:25:48.060Z",
+    "modified": "2023-06-09T12:25:48.060Z",
+    "objects": {
+        "0": {
+            "type": "x-oca-event",
+            "action": "Event: Potential DoS Attack via Web Server Response Time",
+            "outcome": "Anomaly",
+            "category": [
+                "Time Series"
+            ],
+            "provider": "Anomaly Detection Engine",
+            "agent": "Anomaly Detection Engine-2 :: aio",
+            "created": "2023-06-09T12:23:00.000Z",
+            "network_ref": "4",
+            "host_ref": "5",
+            "original_ref": "10"
+        },
+        "1": {
+            "type": "x-qradar",
+            "qid": 67501740,
+            "category_id": 11003,
+            "high_level_category_id": 11000,
+            "log_source_id": 66,
+            "device_type": 207,
+            "direction": "R2R",
+            "credibility": 5,
+            "relevance": 1,
+            "cre_event_list": [
+                "100221",
+                "100277",
+                "100272",
+                "147889",
+                "137239",
+                "112789",
+                "100227",
+                "100223"
+            ],
+            "domain_id": 0,
+            "domain_name": "Default Domain",
+            "has_offense": "false"
+        },
+        "2": {
+            "type": "x-ibm-finding",
+            "start": "2023-06-09T12:23:00.000Z",
+            "end": "2023-06-09T12:23:00.000Z",
+            "src_ip_ref": "3",
+            "dst_ip_ref": "7",
+            "event_count": 1,
+            "finding_type": "event",
+            "magnitude": 4,
+            "severity": 6,
+            "src_geolocation": "other",
+            "dst_geolocation": "Asia.Thailand",
+            "rule_names": [
+                "Destination Asset Weight is Low",
+                "BB:NetworkDefinition: Darknet Addresses",
+                "Load Basic Building Blocks",
+                "ACME: Service scan",
+                "BB:CategoryDefinition: Source IP is a Third Country/Region",
+                "BB:CategoryDefinition: Countries/Regions with Restricted Access",
+                "Source Asset Weight is Low",
+                "Source Address is a Bogon IP"
+            ]
+        },
+        "3": {
+            "type": "ipv4-addr",
+            "value": "0.0.0.0",
+            "resolves_to_refs": [
+                "6"
+            ]
+        },
+        "4": {
+            "type": "network-traffic",
+            "src_ref": "3",
+            "src_port": 0,
+            "dst_ref": "7",
+            "dst_port": 0,
+            "protocols": [
+                "hopopt"
+            ]
+        },
+        "6": {
+            "type": "mac-addr",
+            "value": "00:00:00:00:00:00"
+        },
+        "7": {
+            "type": "ipv4-addr",
+            "value": "103.7.59.135",
+            "resolves_to_refs": [
+                "8"
+            ]
+        },
+        "8": {
+            "type": "mac-addr",
+            "value": "00:00:00:00:00:00"
+        },
+        "9": {
+            "type": "ipv4-addr",
+            "value": "0.0.0.0"
+        },
+        "10": {
+            "type": "artifact",
+            "payload_bin": "AAAADQAAAAcAAAAAAAAAAGcHO++/vQ==",
+            "mime_type": "text/plain"
+        }
+    },
+    "first_observed": "2023-06-09T12:23:00.000Z",
+    "last_observed": "2023-06-09T12:23:00.000Z",
+    "number_observed": 1
+},{
+    "id": "observed-data--e5dcea17-cf60-41b4-b05e-9c90a846a761",
+    "type": "observed-data",
+    "created_by_ref": "identity--b79d03f9-257d-408d-ac37-2e51dc6b5723",
+    "created": "2023-06-09T12:25:48.060Z",
+    "modified": "2023-06-09T12:25:48.060Z",
+    "objects": {
+        "0": {
+            "type": "x-oca-event",
+            "action": "Event: Potential DoS Attack via Web Server Response Time",
+            "outcome": "Anomaly",
+            "category": [
+                "Time Series"
+            ],
+            "provider": "Anomaly Detection Engine",
+            "agent": "Anomaly Detection Engine-2 :: aio",
+            "created": "2023-06-09T12:23:00.000Z",
+            "network_ref": "4",
+            "host_ref": "5",
+            "original_ref": "10"
+        },
+        "1": {
+            "type": "x-qradar",
+            "qid": 67500211,
+            "category_id": 11003,
+            "high_level_category_id": 11000,
+            "log_source_id": 66,
+            "device_type": 207,
+            "direction": "R2R",
+            "credibility": 5,
+            "relevance": 1,
+            "cre_event_list": [
+                "100221",
+                "100277",
+                "100272",
+                "147889",
+                "137239",
+                "112789",
+                "100227",
+                "100223"
+            ],
+            "domain_id": 0,
+            "domain_name": "Default Domain",
+            "has_offense": "false"
+        },
+        "2": {
+            "type": "x-ibm-finding",
+            "start": "2023-06-09T12:23:00.000Z",
+            "end": "2023-06-09T12:23:00.000Z",
+            "src_ip_ref": "3",
+            "dst_ip_ref": "7",
+            "event_count": 1,
+            "finding_type": "event",
+            "magnitude": 4,
+            "severity": 6,
+            "src_geolocation": "other",
+            "dst_geolocation": "Asia.Thailand",
+            "rule_names": [
+                "Destination Asset Weight is Low",
+                "BB:NetworkDefinition: Darknet Addresses",
+                "Load Basic Building Blocks",
+                "ACME: Service scan",
+                "BB:CategoryDefinition: Source IP is a Third Country/Region",
+                "BB:CategoryDefinition: Countries/Regions with Restricted Access",
+                "Source Asset Weight is Low",
+                "Source Address is a Bogon IP"
+            ]
+        },
+        "3": {
+            "type": "ipv4-addr",
+            "value": "0.0.0.0",
+            "resolves_to_refs": [
+                "6"
+            ]
+        },
+        "4": {
+            "type": "network-traffic",
+            "src_ref": "3",
+            "src_port": 0,
+            "dst_ref": "7",
+            "dst_port": 0,
+            "protocols": [
+                "hopopt"
+            ]
+        },
+        "6": {
+            "type": "mac-addr",
+            "value": "00:00:00:00:00:00"
+        },
+        "7": {
+            "type": "ipv4-addr",
+            "value": "103.7.59.135",
+            "resolves_to_refs": [
+                "8"
+            ]
+        },
+        "8": {
+            "type": "mac-addr",
+            "value": "00:00:00:00:00:00"
+        },
+        "9": {
+            "type": "ipv4-addr",
+            "value": "0.0.0.0"
+        },
+        "10": {
+            "type": "artifact",
+            "payload_bin": "AAAACwAAAAcAAAAAAAAAAGcHO++/vQ==",
+            "mime_type": "text/plain"
+        }
+    },
+    "first_observed": "2023-06-09T12:23:00.000Z",
+    "last_observed": "2023-06-09T12:23:00.000Z",
+    "number_observed": 1
+},{
+    "id": "observed-data--d51bfe82-249e-4e9d-b29e-b5a46ce934b8",
+    "type": "observed-data",
+    "created_by_ref": "identity--b79d03f9-257d-408d-ac37-2e51dc6b5723",
+    "created": "2023-06-09T12:25:48.059Z",
+    "modified": "2023-06-09T12:25:48.059Z",
+    "objects": {
+        "0": {
+            "type": "x-oca-event",
+            "action": "Event: Potential DoS Attack via Web Server Response Time",
+            "outcome": "Anomaly",
+            "category": [
+                "Time Series"
+            ],
+            "provider": "Anomaly Detection Engine",
+            "agent": "Anomaly Detection Engine-2 :: aio",
+            "created": "2023-06-09T12:23:00.000Z",
+            "network_ref": "4",
+            "host_ref": "5",
+            "original_ref": "10"
+        },
+        "1": {
+            "type": "x-qradar",
+            "qid": 53750003,
+            "category_id": 11003,
+            "high_level_category_id": 11000,
+            "log_source_id": 66,
+            "device_type": 207,
+            "direction": "R2R",
+            "credibility": 5,
+            "relevance": 1,
+            "cre_event_list": [
+                "100221",
+                "103689",
+                "100277",
+                "100272",
+                "147889",
+                "137239",
+                "112789",
+                "100227",
+                "100223"
+            ],
+            "domain_id": 0,
+            "domain_name": "Default Domain",
+            "has_offense": "true"
+        },
+        "2": {
+            "type": "x-ibm-finding",
+            "start": "2023-06-09T12:23:00.000Z",
+            "end": "2023-06-09T12:23:00.000Z",
+            "src_ip_ref": "3",
+            "dst_ip_ref": "7",
+            "event_count": 1,
+            "finding_type": "event",
+            "magnitude": 4,
+            "severity": 6,
+            "src_geolocation": "other",
+            "dst_geolocation": "Asia.Thailand",
+            "rule_names": [
+                "Destination Asset Weight is Low",
+                "Generated CRE Rule For AD Rule Potential DoS Attack via Web Server Response Time",
+                "BB:NetworkDefinition: Darknet Addresses",
+                "Load Basic Building Blocks",
+                "ACME: Service scan",
+                "BB:CategoryDefinition: Source IP is a Third Country/Region",
+                "BB:CategoryDefinition: Countries/Regions with Restricted Access",
+                "Source Asset Weight is Low",
+                "Source Address is a Bogon IP"
+            ]
+        },
+        "3": {
+            "type": "ipv4-addr",
+            "value": "0.0.0.0",
+            "resolves_to_refs": [
+                "6"
+            ]
+        },
+        "4": {
+            "type": "network-traffic",
+            "src_ref": "3",
+            "src_port": 0,
+            "dst_ref": "7",
+            "dst_port": 0,
+            "protocols": [
+                "hopopt"
+            ]
+        },
+        "6": {
+            "type": "mac-addr",
+            "value": "00:00:00:00:00:00"
+        },
+        "7": {
+            "type": "ipv4-addr",
+            "value": "103.7.59.135",
+            "resolves_to_refs": [
+                "8"
+            ]
+        },
+        "8": {
+            "type": "mac-addr",
+            "value": "00:00:00:00:00:00"
+        },
+        "9": {
+            "type": "ipv4-addr",
+            "value": "0.0.0.0"
+        },
+        "10": {
+            "type": "artifact",
+            "payload_bin": "AAAADgAAAAcAAAAAAAAAAGcHO++/vQ==",
+            "mime_type": "text/plain"
+        }
+    },
+    "first_observed": "2023-06-09T12:23:00.000Z",
+    "last_observed": "2023-06-09T12:23:00.000Z",
+    "number_observed": 1
+},
+               {
+    "id": "observed-data--d53d41df-656e-4f3d-b63c-58c1735e2a76",
+    "type": "observed-data",
+    "created_by_ref": "identity--b79d03f9-257d-408d-ac37-2e51dc6b5723",
+    "created": "2023-06-09T12:25:48.058Z",
+    "modified": "2023-06-09T12:25:48.058Z",
+    "objects": {
+        "0": {
+            "type": "x-oca-event",
+            "action": "Event: Potential DoS Attack via Web Server Response Time",
+            "outcome": "Anomaly",
+            "category": [
+                "Time Series"
+            ],
+            "provider": "Anomaly Detection Engine",
+            "agent": "Anomaly Detection Engine-2 :: aio",
+            "created": "2023-06-09T12:23:00.000Z",
+            "network_ref": "4",
+            "host_ref": "5",
+            "original_ref": "10"
+        },
+        "1": {
+            "type": "x-qradar",
+            "qid": 67501651,
+            "category_id": 11003,
+            "high_level_category_id": 11000,
+            "log_source_id": 66,
+            "device_type": 207,
+            "direction": "R2R",
+            "credibility": 5,
+            "relevance": 1,
+            "cre_event_list": [
+                "100221",
+                "100277",
+                "100272",
+                "147889",
+                "137239",
+                "112789",
+                "100227",
+                "100223"
+            ],
+            "domain_id": 0,
+            "domain_name": "Default Domain",
+            "has_offense": "false"
+        },
+        "2": {
+            "type": "x-ibm-finding",
+            "start": "2023-06-09T12:23:00.000Z",
+            "end": "2023-06-09T12:23:00.000Z",
+            "src_ip_ref": "3",
+            "dst_ip_ref": "7",
+            "event_count": 1,
+            "finding_type": "event",
+            "magnitude": 4,
+            "severity": 6,
+            "src_geolocation": "other",
+            "dst_geolocation": "Asia.Thailand",
+            "rule_names": [
+                "Destination Asset Weight is Low",
+                "BB:NetworkDefinition: Darknet Addresses",
+                "Load Basic Building Blocks",
+                "ACME: Service scan",
+                "BB:CategoryDefinition: Source IP is a Third Country/Region",
+                "BB:CategoryDefinition: Countries/Regions with Restricted Access",
+                "Source Asset Weight is Low",
+                "Source Address is a Bogon IP"
+            ]
+        },
+        "3": {
+            "type": "ipv4-addr",
+            "value": "0.0.0.0",
+            "resolves_to_refs": [
+                "6"
+            ]
+        },
+        "4": {
+            "type": "network-traffic",
+            "src_ref": "3",
+            "src_port": 0,
+            "dst_ref": "7",
+            "dst_port": 0,
+            "protocols": [
+                "hopopt"
+            ]
+        },
+        "6": {
+            "type": "mac-addr",
+            "value": "00:00:00:00:00:00"
+        },
+        "7": {
+            "type": "ipv4-addr",
+            "value": "103.7.59.135",
+            "resolves_to_refs": [
+                "8"
+            ]
+        },
+        "8": {
+            "type": "mac-addr",
+            "value": "00:00:00:00:00:00"
+        },
+        "9": {
+            "type": "ipv4-addr",
+            "value": "0.0.0.0"
+        },
+        "10": {
+            "type": "artifact",
+            "payload_bin": "AAAADAAAAAcAAAAAAAAAAGcHO++/vQ==",
+            "mime_type": "text/plain"
+        }
+    },
+    "first_observed": "2023-06-09T12:23:00.000Z",
+    "last_observed": "2023-06-09T12:23:00.000Z",
+    "number_observed": 1
+},
+               {
+    "id": "observed-data--f8d31dee-0693-4ec7-bd27-122918ea0f45",
+    "type": "observed-data",
+    "created_by_ref": "identity--b79d03f9-257d-408d-ac37-2e51dc6b5723",
+    "created": "2023-06-09T12:25:48.038Z",
+    "modified": "2023-06-09T12:25:48.038Z",
+    "objects": {
+        "0": {
+            "type": "x-oca-event",
+            "action": "Event: Potential DoS Attack via Web Server Response Time",
+            "outcome": "Anomaly",
+            "category": [
+                "Time Series"
+            ],
+            "provider": "Anomaly Detection Engine",
+            "agent": "Anomaly Detection Engine-2 :: aio",
+            "created": "2023-06-09T12:23:00.000Z",
+            "network_ref": "4",
+            "host_ref": "5",
+            "original_ref": "10"
+        },
+        "1": {
+            "type": "x-qradar",
+            "qid": 53750003,
+            "category_id": 11003,
+            "high_level_category_id": 11000,
+            "log_source_id": 66,
+            "device_type": 207,
+            "direction": "R2R",
+            "credibility": 5,
+            "relevance": 1,
+            "cre_event_list": [
+                "100221",
+                "103689",
+                "100277",
+                "100272",
+                "147889",
+                "137239",
+                "112789",
+                "100227",
+                "100223"
+            ],
+            "domain_id": 0,
+            "domain_name": "Default Domain",
+            "has_offense": "true"
+        },
+        "2": {
+            "type": "x-ibm-finding",
+            "start": "2023-06-09T12:23:00.000Z",
+            "end": "2023-06-09T12:23:00.000Z",
+            "src_ip_ref": "3",
+            "dst_ip_ref": "7",
+            "event_count": 1,
+            "finding_type": "event",
+            "magnitude": 4,
+            "severity": 6,
+            "src_geolocation": "other",
+            "dst_geolocation": "Asia.Thailand",
+            "rule_names": [
+                "Destination Asset Weight is Low",
+                "Generated CRE Rule For AD Rule Potential DoS Attack via Web Server Response Time",
+                "BB:NetworkDefinition: Darknet Addresses",
+                "Load Basic Building Blocks",
+                "ACME: Service scan",
+                "BB:CategoryDefinition: Source IP is a Third Country/Region",
+                "BB:CategoryDefinition: Countries/Regions with Restricted Access",
+                "Source Asset Weight is Low",
+                "Source Address is a Bogon IP"
+            ]
+        },
+        "3": {
+            "type": "ipv4-addr",
+            "value": "0.0.0.0",
+            "resolves_to_refs": [
+                "6"
+            ]
+        },
+        "4": {
+            "type": "network-traffic",
+            "src_ref": "3",
+            "src_port": 0,
+            "dst_ref": "7",
+            "dst_port": 0,
+            "protocols": [
+                "hopopt"
+            ]
+        },
+        "6": {
+            "type": "mac-addr",
+            "value": "00:00:00:00:00:00"
+        },
+        "7": {
+            "type": "ipv4-addr",
+            "value": "103.7.59.135",
+            "resolves_to_refs": [
+                "8"
+            ]
+        },
+        "8": {
+            "type": "mac-addr",
+            "value": "00:00:00:00:00:00"
+        },
+        "9": {
+            "type": "ipv4-addr",
+            "value": "0.0.0.0"
+        },
+        "10": {
+            "type": "artifact",
+            "payload_bin": "AAAAAQAAAAcAAAAAAAAAAGcHO++/vQ==",
+            "mime_type": "text/plain"
+        }
+    },
+    "first_observed": "2023-06-09T12:23:00.000Z",
+    "last_observed": "2023-06-09T12:23:00.000Z",
+    "number_observed": 1
+}
+              ],
     "type": "bundle"
 }
